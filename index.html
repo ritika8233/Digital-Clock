@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritika-Assignment5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="startTime()">
+  <div class="wrapper">
+    <div class="page">
+      <h1>Clock</h1>
+      <div class="main-content1">
+        <div id="txt1" class="date-display"></div>
+        <div id="txt" class="time-display"></div>
+      </div>
+      
+  
+      <audio id="alarm_song">
+          <source src="assets/audio/mrng.mp3" type="audio/mp3">
+      </audio>
+      
+      <div class="row alarm-actions1">
+        <input type="time" id="alarm_input" class="col-sm-6">
+        <button id="alarm_set" class="col-sm-6">Set Alarm</button>
+      </div>
+      
+      <p class="alarm-p">
+        <span id="alarm_display"></span>
+      </p>
+
+      <div class="alarm-actions2 row">  
+        <button id="edit_alarm" class="col-sm-6">Edit</button>
+        <button id="dismiss_alarm" class="col-sm-6">Dismiss</button>
+      </div>
+      
+    </div>
+  </div>
+    
+<script src="script.js"></script>
+</body>
+</html>
